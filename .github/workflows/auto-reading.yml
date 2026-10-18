@@ -101,7 +101,7 @@ jobs:
           mode: "${{ github.event.inputs.reading_mode || 'smart_random' }}"
           # 目标阅读时长（分钟），支持区间随机，格式如："1" 或 "1-2"
           target_duration: "${TARGET_DURATION}"
-          reading_interval: "30-48"
+          reading_interval: "25-35"
           use_curl_data_first: true
           fallback_to_config: true
           smart_random:
